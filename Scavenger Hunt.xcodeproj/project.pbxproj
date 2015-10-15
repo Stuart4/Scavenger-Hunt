@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		182BDFB91BD06224001E9DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDFB81BD06224001E9DED /* AppDelegate.swift */; };
-		182BDFBB1BD06224001E9DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDFBA1BD06224001E9DED /* ViewController.swift */; };
+		182BDFBB1BD06224001E9DED /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDFBA1BD06224001E9DED /* AddViewController.swift */; };
 		182BDFBE1BD06224001E9DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BDFBC1BD06224001E9DED /* Main.storyboard */; };
 		182BDFC01BD06224001E9DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182BDFBF1BD06224001E9DED /* Assets.xcassets */; };
 		182BDFC31BD06224001E9DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BDFC11BD06224001E9DED /* LaunchScreen.storyboard */; };
 		182BDFCE1BD06224001E9DED /* Scavenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDFCD1BD06224001E9DED /* Scavenger_HuntTests.swift */; };
 		182BDFD91BD06224001E9DED /* Scavenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDFD81BD06224001E9DED /* Scavenger_HuntUITests.swift */; };
+		F610618BCB907E3357655BA1 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E95056CAFEDD3210E6B9CC /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		182BDFB51BD06224001E9DED /* Scavenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BDFB81BD06224001E9DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182BDFBA1BD06224001E9DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182BDFBA1BD06224001E9DED /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		182BDFBD1BD06224001E9DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182BDFBF1BD06224001E9DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182BDFC21BD06224001E9DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		182BDFD41BD06224001E9DED /* Scavenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BDFD81BD06224001E9DED /* Scavenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavenger_HuntUITests.swift; sourceTree = "<group>"; };
 		182BDFDA1BD06224001E9DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		867CEE4C1B1E88CB8C920FC6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9E84A5C697CF94545F101507 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F5E95056CAFEDD3210E6B9CC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F610618BCB907E3357655BA1 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				182BDFCC1BD06224001E9DED /* Scavenger HuntTests */,
 				182BDFD71BD06224001E9DED /* Scavenger HuntUITests */,
 				182BDFB61BD06224001E9DED /* Products */,
+				82E0514F5F16D5DA4E0CF612 /* Pods */,
+				A16888A2F9F55207B05E672E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				182BDFB81BD06224001E9DED /* AppDelegate.swift */,
-				182BDFBA1BD06224001E9DED /* ViewController.swift */,
+				182BDFBA1BD06224001E9DED /* AddViewController.swift */,
 				182BDFBC1BD06224001E9DED /* Main.storyboard */,
 				182BDFBF1BD06224001E9DED /* Assets.xcassets */,
 				182BDFC11BD06224001E9DED /* LaunchScreen.storyboard */,
@@ -125,6 +132,23 @@
 			path = "Scavenger HuntUITests";
 			sourceTree = "<group>";
 		};
+		82E0514F5F16D5DA4E0CF612 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				867CEE4C1B1E88CB8C920FC6 /* Pods.debug.xcconfig */,
+				9E84A5C697CF94545F101507 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A16888A2F9F55207B05E672E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5E95056CAFEDD3210E6B9CC /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182BDFDD1BD06224001E9DED /* Build configuration list for PBXNativeTarget "Scavenger Hunt" */;
 			buildPhases = (
+				110A58BEDF70FD71D911E0D1 /* Check Pods Manifest.lock */,
 				182BDFB11BD06224001E9DED /* Sources */,
 				182BDFB21BD06224001E9DED /* Frameworks */,
 				182BDFB31BD06224001E9DED /* Resources */,
+				9EC17A8DA8EBA079AFF7337A /* Embed Pods Frameworks */,
+				0FCFD51327309352AD0E5E2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,12 +277,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FCFD51327309352AD0E5E2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		110A58BEDF70FD71D911E0D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC17A8DA8EBA079AFF7337A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		182BDFB11BD06224001E9DED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182BDFBB1BD06224001E9DED /* ViewController.swift in Sources */,
+				182BDFBB1BD06224001E9DED /* AddViewController.swift in Sources */,
 				182BDFB91BD06224001E9DED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,23 +471,29 @@
 		};
 		182BDFDE1BD06224001E9DED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867CEE4C1B1E88CB8C920FC6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scavenger Hunt/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stuartresearch.Scavenger-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		182BDFDF1BD06224001E9DED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E84A5C697CF94545F101507 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Scavenger Hunt/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stuartresearch.Scavenger-Hunt";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -483,6 +564,7 @@
 				182BDFDF1BD06224001E9DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182BDFE01BD06224001E9DED /* Build configuration list for PBXNativeTarget "Scavenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +573,7 @@
 				182BDFE21BD06224001E9DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182BDFE31BD06224001E9DED /* Build configuration list for PBXNativeTarget "Scavenger HuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +582,7 @@
 				182BDFE51BD06224001E9DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
