@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wwb-Y5-rtg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="E3o-8h-4JM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -31,7 +31,8 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dlr-8J-40e">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="9qN-lz-JB1"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sqU-PK-ojn"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="9qN-lz-JB1"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -62,8 +63,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="xTy-P6-oqm">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="NEd-fW-a8a"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="done" id="Zxl-Gg-10Y"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zxl-Gg-10Y"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFr-88-lFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
