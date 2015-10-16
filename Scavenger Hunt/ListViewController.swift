@@ -14,6 +14,17 @@ class ListViewController: UITableViewController {
         ScavengerHuntItem(name: "👑"),
         ScavengerHuntItem(name: "🎾") ]
     
+    @IBAction func unwindToList(segue: UIStoryboardSegue) {
+        if segue.identifier == "DoneItem" {
+            let addVC = segue.sourceViewController as! AddViewController
+            if let newItem = addVC.newItem {
+                itemsList += [newItem]
+                let indexPath = NSIndexPath(forRow: itemsList.count - 1, inSection: 0)
+                tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
+    }
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return itemsList.count
     }
