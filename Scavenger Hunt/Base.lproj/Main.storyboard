@@ -63,7 +63,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="xTy-P6-oqm">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zxl-Gg-10Y"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Zxl-Gg-10Y">
+                            <connections>
+                                <segue destination="wwb-Y5-rtg" kind="presentation" id="B9Q-eq-mGI"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFr-88-lFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
