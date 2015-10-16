@@ -31,7 +31,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Dlr-8J-40e">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sqU-PK-ojn"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="sqU-PK-ojn">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="7Y1-1n-9Pd"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="9qN-lz-JB1"/>
                     </navigationItem>
                 </viewController>
@@ -90,7 +94,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wDN-Lm-pzS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="538" y="1695"/>
+            <point key="canvasLocation" x="540" y="1810"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="T9M-9Z-avF">
